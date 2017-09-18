@@ -1,5 +1,5 @@
 #! python2
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 import pandas as pd
 from multiprocessing import Pool
