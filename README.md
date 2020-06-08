@@ -14,5 +14,5 @@ n: 数据量
 k: 哈希函数个数
 p: 误判率
 
-![](http://latex.codecogs.com/gif.latex?\\-\frac{nln^p}{(ln^2)^2}})
+![](http://latex.codecogs.com/gif.latex?\\-\frac{n*ln^p}{(ln^2)^2}})
 
