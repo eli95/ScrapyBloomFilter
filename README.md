@@ -1,5 +1,5 @@
-#### 使用
-- 安装
+### 使用
+#### 安装
 ```
 git clone https://github.com/ELI95/ScrapyBloomFilter.git
 cd ScrapyBloomFilter
@@ -7,7 +7,7 @@ python setup.py build
 python setup.py install
 ```
 
-- 配置
+#### 配置
 ```python
 SCHEDULER = "scrapy_bloomfilter.scheduler.Scheduler"
 
@@ -23,7 +23,7 @@ SCHEDULER_PERSIST = False
 ```
 
 
-#### 数学结论
+### 数学结论
 - n: 数据量
 - p: 误判率
 - m: 位数组长度
