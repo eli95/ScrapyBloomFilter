@@ -1,11 +1,25 @@
-#### 关键配置
+#### 使用
+- 安装
+```
+git clone https://github.com/ELI95/ScrapyBloomFilter.git
+cd ScrapyBloomFilter
+python setup.py build
+python setup.py install
+```
+
+- 配置
 ```python
-# 去重类
-DUPEFILTER_CLASS
-# 哈希函数数量
-BLOOMFILTER_HASH_NUMBER
-# bit参数
-BLOOMFILTER_BIT
+SCHEDULER = "scrapy_bloomfilter.scheduler.Scheduler"
+
+DUPEFILTER_CLASS = "scrapy_bloomfilter.dupefilter.RedisDupeFilter"
+
+REDIS_URL = 'redis://@localhost:6379'
+
+BLOOMFILTER_HASH_NUMBER = 6
+
+BLOOMFILTER_BIT = 10
+
+SCHEDULER_PERSIST = False
 ```
 
 
