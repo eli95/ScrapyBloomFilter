@@ -10,6 +10,7 @@ BLOOMFILTER_BIT
 
 
 #### 数学结论
+```
 - n: 数据量
 - p: 误判率
 - m: 位数组长度
@@ -18,3 +19,4 @@ BLOOMFILTER_BIT
 ![](http://latex.codecogs.com/png.latex?m=-\frac{nln^p}{(ln^2)^2})
 
 ![](http://latex.codecogs.com/png.latex?k=\frac{m}{n}ln^2)
+```
