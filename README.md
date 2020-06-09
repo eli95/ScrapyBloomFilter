@@ -2,9 +2,9 @@
 ```python
 # 去重类
 DUPEFILTER_CLASS
-# 哈希函数的个数
+# 哈希函数数量
 BLOOMFILTER_HASH_NUMBER
-# BloomFilter 的 bit 参数
+# bit参数
 BLOOMFILTER_BIT
 ```
 
