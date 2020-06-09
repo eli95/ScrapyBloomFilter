@@ -15,6 +15,7 @@ BLOOMFILTER_BIT
 - m: 位数组长度
 - k: 哈希函数个数
 
-![](http://latex.codecogs.com/png.latex?m=-\frac{nln^p}{(ln^2)^2})
+
+<p align="center">![](http://latex.codecogs.com/png.latex?m=-\frac{nln^p}{(ln^2)^2})</p>
 
 ![](http://latex.codecogs.com/png.latex?k=\frac{m}{n}ln^2)
