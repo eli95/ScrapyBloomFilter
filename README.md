@@ -1,6 +1,6 @@
 ### 使用
 #### 安装
-```
+```bash
 git clone https://github.com/ELI95/ScrapyBloomFilter.git
 cd ScrapyBloomFilter
 python setup.py build
