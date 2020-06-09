@@ -3,6 +3,7 @@ import logging
 
 from scrapy.dupefilters import BaseDupeFilter
 from scrapy.utils.request import request_fingerprint
+
 from . import defaults
 from .connection import get_redis_from_settings
 from .bloomfilter import BloomFilter
