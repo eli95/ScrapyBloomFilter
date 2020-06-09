@@ -16,6 +16,6 @@ BLOOMFILTER_BIT
 - k: 哈希函数个数
 
 
-<p align="center">![](http://latex.codecogs.com/png.latex?m=-\frac{nln^p}{(ln^2)^2})</p>
+  ![](http://latex.codecogs.com/png.latex?m=-\frac{nln^p}{(ln^2)^2})
 
-![](http://latex.codecogs.com/png.latex?k=\frac{m}{n}ln^2)
+  ![](http://latex.codecogs.com/png.latex?k=\frac{m}{n}ln^2)
